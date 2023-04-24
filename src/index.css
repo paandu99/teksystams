@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    /* background-color: black !important; */
+    /* background: black !important; */
+    /* color: white !important; */
+    background-image: url("../public//images//Background1.jpg") !important;
+    /* background-repeat: no-repeat;
+    background-size: auto !important; */
+    background-size: 100%;
+    /* background-position-x: center; */
+
+    
+}
+.buttonBg{
+  background-color:linear-gradient(95deg,var(--color-primary) 15%,var(--color-tertiary) 45%,var(--color-pink) 75%,var(--color-secondary)) 95%/200% 100%
+}
+
+.logo{
+    max-width: 150px;
+}
+.com{
+    max-width: 125px;
+}
+.hsize{
+    font-size: 25px;
+}
+.psize{
+    font-size: 16px;
+}
+.react-multi-carousel-item li{
+    width: 400px !important;
+}
+.list{
+    font-size: 16px;
+}
+.icon{
+    padding: 10px;
+}
+.card{
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.cards{
+    font-size: 20px;
+}
+.reviewCard{
+    margin-bottom: 12px;
+}
+.footer{
+    border: 1px ;
+    border-color: black;
+}
+.header{
+    margin-top: 25px;
+}
+.banner-user{
+    height: 600px !important;
+  }
+  .banner-user-elem{
+    text-align: center;
+    color: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+  .banner-user-elem .banner-user-title{
+    font-size: 32px;
+    top: 40%;
+  }
+  .banner-user-elem .banner-user-text{
+    top: 40%;
+  }
+  .banner-anim-elem .bgimg2{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    background: url("../public//images//Bics7.jpg") no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  .banner-anim-elem .bgImg{
+    /* width: 100%;
+    height: 100vh; */
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* overflow: hidden; */
+    background: url("../public//images//Bics8.jpg") no-repeat;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  
+  
