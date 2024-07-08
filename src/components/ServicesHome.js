@@ -16,23 +16,23 @@ function ServiceHome() {
       <div className="md:grid md:grid-cols-12 mt-8 gap-4">
         <div className="md:col-span-4  hover:border-[2px]   bg-white rounded-md shadow">
             <BsPersonWorkspace size={60} className="m-auto mt-4" />
-            <h1 className="font-semibold text-md md:text-xl m-auto text-center   pb-10 ">IT Technologies Training</h1>
-            <Link to="/trainings">
-            <p className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-md text-center font-semibold py-4">Register Now</p>
+            <h1 className="font-semibold text-md md:text-xl m-auto text-center   pb-10 ">Website Development</h1>
+            <Link to="/contactus">
+            <p className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-md text-center font-semibold py-4">Contact Us</p>
             </Link>
         </div>
         <div className="md:col-span-4 hover:border-[2px]  bg-white rounded-md shadow">
             <BsPersonWorkspace size={60} className="m-auto mt-4" />
             
-            <h1 className="font-semibold text-md md:text-xl m-auto text-center   pb-10 ">Strategic Profile Marketing</h1>
-            <Link to="/profileMarketing">
-            <p className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-md text-center font-semibold py-4">Register Now</p>
+            <h1 className="font-semibold text-md md:text-xl m-auto text-center   pb-10 ">App Development</h1>
+            <Link to="/contactus">
+            <p className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-md text-center font-semibold py-4">Contact Us</p>
             </Link>
         </div>
         <div className="md:col-span-4 hover:border-[2px]  bg-white rounded-md shadow">
             <BsPersonWorkspace size={60} className="m-auto mt-4" />
-            <h1 className="font-semibold text-md md:text-xl m-auto text-center   pb-10 ">Work Force Solutions</h1>
-            <Link to="/workforcesolutions">
+            <h1 className="font-semibold text-md md:text-xl m-auto text-center   pb-10 ">SEO Services</h1>
+            <Link to="/contactus">
             <p className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-md text-center font-semibold py-4">Contact Us</p>
             </Link>
             

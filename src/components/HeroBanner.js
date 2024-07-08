@@ -25,7 +25,7 @@ const HeroBanner =()=> {
             "Chase Your Dreams"
           </p>
           <p className="text-[45px] inline-block top-[40%] px-8 rounded-xl text-white font-semibold md:bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 md:left-[18%]" >
-            BICS</p>
+          TEKsystams</p>
          
         </Element>
         <Element 

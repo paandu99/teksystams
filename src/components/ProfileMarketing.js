@@ -72,7 +72,7 @@ function ProfileMarketing() {
         <div className=" mt-[6%]">
           <div className="pb-6 ">
             <h1 className="text-white hsize sm:text-center md:text-[30px] font-semibold">
-              Strategic Profile Marketing
+            Website Development
             </h1>
           </div>
           <h3 className="text-[#b2bec3] text-center psize md:text-[20px] font-semibold">

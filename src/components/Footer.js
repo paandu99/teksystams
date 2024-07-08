@@ -34,7 +34,7 @@ function Footer() {
             <div className="md:items-end pl-6   md:flex md:space-x-10">
               <div className="flex space-x-4">
               <div
-                onClick={() => mailHandler()}
+                // onClick={() => mailHandler()}
                 className="flex space-x-2 items-center"
               >
                 <AiOutlineMail size={18} className="font-semibold text-white" />
@@ -42,7 +42,7 @@ function Footer() {
               </div>
               <a
                 class="social-icon-link facebook"
-                href="https://www.linkedin.com/company/blossoms-it-consulting-services/"
+                // href="https://www.linkedin.com/company/blossoms-it-consulting-services/"
                 target="_blank"
                 aria-label="Facebook"
               >
@@ -58,7 +58,7 @@ function Footer() {
               <div className="flex space-x-4">
               <a
                 class="social-icon-link facebook"
-                href="https://www.instagram.com/bics_official_/?hl=en"
+                // href="https://www.instagram.com/bics_official_/?hl=en"
                 target="_blank"
                 aria-label="Facebook"
               >
@@ -72,7 +72,7 @@ function Footer() {
               </a>
               <a
                 class="social-icon-link facebook"
-                href="https://twitter.com/BICS_Official"
+                // href="https://twitter.com/BICS_Official"
                 target="_blank"
                 aria-label="Facebook"
               >
@@ -88,7 +88,7 @@ function Footer() {
               <div className="flex space-x-4">
               <a
                 class="social-icon-link facebook"
-                href="https://api.whatsapp.com/send/?phone=918977112726&text&type=phone_number&app_absent=0"
+                // href="https://api.whatsapp.com/send/?phone=918977112726&text&type=phone_number&app_absent=0"
                 target="_blank"
                 aria-label="Whatsapp"
               >
@@ -100,7 +100,7 @@ function Footer() {
               </a>
               <a
                 class="social-icon-link facebook"
-                href="https://www.facebook.com/profile.php?id=100090492535893&mibextid=LQQJ4d"
+                // href="https://www.facebook.com/profile.php?id=100090492535893&mibextid=LQQJ4d"
 
                 target="_blank"
                 aria-label="Whatsapp"
@@ -133,10 +133,10 @@ function Footer() {
       <div className="border-t-[1px]  border-t-[#636e72]">
         <div className="flex space-x-2 pt-4 pb-8">
           <AiOutlineCopyright size={18} className="text-white" />
-          <p className="text-white text-sm font-semibold">BICS</p>
+          <p className="text-white text-sm font-semibold">TEKsystams</p>
           {/* <img src="images/boxing.png" className="w-[20px]" alt="footer" />  */}
           <p className="text-white text-sm font-semibold">
-            2023, All Rights Reserved
+            2024, All Rights Reserved
           </p>
         </div>
       </div>

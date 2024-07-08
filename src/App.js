@@ -48,7 +48,7 @@ function App() {
 
           {isLogged && <Route path="/home" element={<Dashboard />} />}
           <Route path="/aboutus" element={<About />} />
-          <Route path="/contactus" element={<Contact />} />
+          <Route path="/contactus" element={<ContactTraining />} />
           <Route path="/marketing" element={<Marketing />} />
 
           <Route path="/services" element={<Service />} />
@@ -60,8 +60,8 @@ function App() {
           <Route path="/canadaworkforce" element={<Canada />} />
           <Route path="/inworkforce" element={<InWorkForce />} />
           <Route path="/contacttrainings" element={<ContactTraining />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/login" element={<Login />} />
+          {/* <Route path="/register" element={<Register />} />
+          <Route path="/login" element={<Login />} /> */}
           <Route path="/induvidualTechnology/:id" element={<IndTechnology />} />
           {/* <Route element={<PrivateRoutes />}> */}
             <Route path="/home" element={<Dashboard />} />

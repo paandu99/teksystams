@@ -134,7 +134,7 @@ function Navbar() {
                   </NavLink>
                 </li>
               </Link>
-              {!isAuth && (
+              {/* {!isAuth && (
                 <Link to="/register">
                   <li
                     onClick={() => setToggle(false) & setActive("register")}
@@ -205,7 +205,7 @@ function Navbar() {
                     </NavLink>
                   </li>
                 </Link>
-              )}
+              )} */}
             </ul>
           </div>
         </div>
